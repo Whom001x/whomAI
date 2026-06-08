@@ -17,6 +17,15 @@
 - 普通透明度支持设置到 `0.01`
 - 配置保存到同目录 `app_config.json`
 
+## AI 编程说明
+
+本项目由 AI 辅助编程完成，主要用于验证和交付一个轻量 Windows 悬浮 AI 工具。
+
+- 开发方式：通过自然语言需求迭代功能，AI 负责编写、修改、打包和提交代码。
+- 主要技术：Python、Tkinter、Pillow、PyInstaller、Windows `RegisterHotKey`。
+- AI 能力接入：默认使用 OpenAI Responses API，也可以在设置中改为兼容接口地址和模型。
+- 本地数据：API Key、模型、透明度、快捷键等配置保存在程序同目录的 `app_config.json`，不会提交到仓库。
+
 ## 运行
 
 双击 `whomAI.exe`。
