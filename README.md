@@ -1,4 +1,4 @@
-# 悬浮窗 AI 对话
+# whomAI
 
 一个 Windows 桌面悬浮 AI 对话小工具。
 
@@ -19,12 +19,12 @@
 
 ## 运行
 
-双击 `FloatingAIChat.exe`。
+双击 `whomAI.exe`。
 
 源码版可以双击 `run.bat`，或在当前目录运行：
 
 ```powershell
-python floating_ai_chat.py
+python whomai.py
 ```
 
 第一次运行后，点击右上角“设”填写 API Key。
@@ -51,7 +51,7 @@ python floating_ai_chat.py
 
 ```powershell
 $env:OPENAI_API_KEY="你的 API Key"
-python floating_ai_chat.py
+python whomai.py
 ```
 
 ## 默认接口

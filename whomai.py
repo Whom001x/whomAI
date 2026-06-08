@@ -15,7 +15,7 @@ from tkinter import colorchooser, filedialog, messagebox, scrolledtext
 from PIL import ImageGrab
 
 
-APP_NAME = "Floating AI Chat"
+APP_NAME = "whomAI"
 APP_DIR = Path(sys.executable).parent if getattr(sys, "frozen", False) else Path(__file__).parent
 CONFIG_PATH = APP_DIR / "app_config.json"
 TEMP_DIR = APP_DIR / "temp"
@@ -102,7 +102,7 @@ def extract_response_text(payload):
     return json.dumps(payload, ensure_ascii=False, indent=2)
 
 
-class FloatingAIChat:
+class WhomAI:
     def __init__(self, root):
         self.root = root
         self.config = load_config()
@@ -151,7 +151,7 @@ class FloatingAIChat:
 
         self.title_label = tk.Label(
             self.header,
-            text="悬浮 AI",
+            text="whomAI",
             bg="#111827",
             fg="#f9fafb",
             font=("Microsoft YaHei UI", 11, "bold"),
@@ -981,7 +981,7 @@ class FloatingAIChat:
 
 def main():
     root = tk.Tk()
-    FloatingAIChat(root)
+    WhomAI(root)
     root.mainloop()
 
 
