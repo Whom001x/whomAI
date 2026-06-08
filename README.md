@@ -21,7 +21,13 @@
 
 双击 `whomAI.exe`。
 
-源码版可以双击 `run.bat`，或在当前目录运行：
+源码版需要先安装依赖：
+
+```powershell
+pip install -r requirements.txt
+```
+
+然后可以双击 `run.bat`，或在当前目录运行：
 
 ```powershell
 python whomai.py
