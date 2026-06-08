@@ -1,6 +1,6 @@
 # whomAI
 
-一个 Windows 桌面悬浮 AI 对话小工具。
+轻量 Windows 桌面 AI 搜题和悬浮对话小工具。
 
 ## 功能
 
